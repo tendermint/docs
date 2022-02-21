@@ -5,6 +5,7 @@ name: Documentation
 #
 # Note that this workflow does not respond to pushes on tendermint/tendermint.
 on:
+  workflow_dispatch:  # allow manual updates
   push:
     branches:
       - main
